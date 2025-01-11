@@ -1310,7 +1310,7 @@ void setup()
   discardChanges(); // the Discardchanges function loads parameter data setpoints from the memory.
   decountIncubationDays();
 
-  // Initialize Timer1 to trigger every 1 second (1000000 microseconds)
+  // Initialize Timer1 to trigger every 1 second
   Timer1.initialize(1000000);
   Timer1.attachInterrupt(runEverySecond); // make the runEverySecond function to run every 1 second
 }
